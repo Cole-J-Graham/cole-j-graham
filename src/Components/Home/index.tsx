@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion"
 import './index.scss';
 import AnimatedText from '../Animations/AnimatedText.tsx';
+import FadeInText from '../Animations/FadeInText.tsx';
 import Skills from '../Skills/Skills.tsx';
 
 const Home = () => {
@@ -13,8 +14,10 @@ const Home = () => {
             transition={{ duration: 1.5 }}
             >
             <span className='tags top-tags'>&lt;html&gt;</span>
-                <h1>Hi, <br /> I'm Cole</h1>
-                <h2>Professional Developer / Object Oriented C++ Specialist</h2>
+                <FadeInText text="Hi," el='h1' className='main-text'/>
+                <br />
+                <FadeInText text="I'm Cole" el='h1' className='main-text'/>
+                <FadeInText text="Professional Developer / Object Oriented C++ Specialist" el='h2' className='main-text'/>
                 <div className="movingtext-flow">
                     <AnimatedText 
                         text="std::stack overflow //Fix errors with memory management std::vector&lt;int&gt; items;" 

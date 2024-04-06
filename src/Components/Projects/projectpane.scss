@@ -1,3 +1,25 @@
+.btn {
+    font-size: 1.0rem;
+    font-weight: 700;
+    padding: 0.5em, 1em;
+    color: white;
+    background-color: black;
+    border: 5px solid rgb(43, 42, 42);
+    border-radius: 2px;
+    position: relative;
+    bottom: 60px;
+    left: 135px;
+    width: 150px;
+    height: 10px;
+    padding-bottom: 30px;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: rgb(43, 42, 42);
+    outline: none;
+}
+
 .project-box {
     display: flex;
     justify-content:space-between;
@@ -20,4 +42,17 @@
 
 .project-description {
     font-size: 18px;
+}
+
+.btn-link {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-decoration: none;
+    color: white;
+    size-adjust: 100px;
+    background-color: transparent;
+    width: 86%;
+    display: block;
+    padding: 10px;
 }

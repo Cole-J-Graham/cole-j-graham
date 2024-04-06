@@ -1,4 +1,5 @@
 import './projectpane.scss';
+import FadeInText from '../Animations/FadeInText.tsx';
 
 const ProjectPane = (props:any) => {
     return (
@@ -13,8 +14,12 @@ const ProjectPane = (props:any) => {
                 }}>
             </img>
             <div className='project-pane'>
-                    <h2 className='project-description'>{props.text}</h2>
+                    <FadeInText 
+                    text={props.text}
+                    el='h2'
+                    className='.project-description'/>
             </div>
+            <button className='btn'><a className='btn-link' href={props.href}>Github</a></button>
         </div>
         
     )
