@@ -30,23 +30,23 @@ export interface Ingredient {
     },
 
     { 
-      icon: "src/assets/c++.png", 
-      label: "C++", 
-      text: "I use C++", 
-      imgwidth: "42px", 
-      imgheight: "35px",
+      icon: "src/assets/js.png", 
+      label: "JS", 
+      text: "I use JavaScript", 
+      imgwidth: "115px", 
+      imgheight: "115px",
       iconwidth: "30px", 
-      iconheight: "35px" 
+      iconheight: "30px" 
     },
 
     { 
-      icon: "src/assets/c++.png", 
-      label: "C++", 
-      text: "I use C++", 
-      imgwidth: "42px", 
-      imgheight: "35px",
-      iconwidth: "30px", 
-      iconheight: "35px" 
+      icon: "src/assets/htmlcss.png", 
+      label: "HTML", 
+      text: "I use HTML and CSS", 
+      imgwidth: "200px", 
+      imgheight: "215px",
+      iconwidth: "45px", 
+      iconheight: "50px" 
     },
   ];
   
