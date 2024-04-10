@@ -26,7 +26,7 @@ const FadeInText = ({
         <motion.span 
         initial="hidden" 
         animate="visible" 
-        transition={{staggerChildren: 0.1}}
+        transition={{staggerChildren: 0.05}}
         aria-hidden
         >
         {text.split("").map((char) => (

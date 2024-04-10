@@ -43,8 +43,8 @@
 }
     
 .main-container {
-    position: center;
-    display: flex;
+    position: absolute;
+    display: center;
     justify-content: center;
     align-items: center;
     font-size: 128px;
@@ -98,7 +98,6 @@
     align-items: center;
     flex: 1;
     min-width: 0;
-    position: relative;
     user-select: none;
 }
     
@@ -140,4 +139,3 @@
     cursor: default;
     pointer-events: none;
 }
-  

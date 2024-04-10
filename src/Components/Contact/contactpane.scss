@@ -1,0 +1,44 @@
+.main-container {
+    padding: 50px;
+}
+
+.circle {
+    display: inline-block;
+    margin: 50px;
+    height: 150px;
+    width: 150px;
+    opacity: 35%;
+    color: #bbb;
+    background-color: #bbb;
+    border-radius: 50%;
+    transition: transform 0.3s, border-radius 0.3s;
+}
+
+.circle:hover {
+    opacity: 75%;
+    transform: translateY(-10px);
+}
+
+.circle-text-main {
+    text-align: center;
+    font-size: 18px;
+    bottom: -30px;
+    position: relative;
+}
+
+.circle-text-main:hover {
+    opacity: 100%;
+}
+
+.circle-image {
+    display: block;
+    margin-left: 30px;
+    height: 85px;
+    top: 50%;
+    margin-top: 35px;
+    width:90px;
+}
+
+.circle-link {
+    
+}
