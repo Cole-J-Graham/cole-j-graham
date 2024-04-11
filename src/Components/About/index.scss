@@ -1,0 +1,63 @@
+.about-top-tags {
+    position: relative;
+    top: -280px;
+    left: 75px;
+    font-size: 18px;
+    color: maroon;
+    opacity: 50%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.about-bottom-tags {
+    position: relative;
+    bottom: 100px;
+    left: 75px;
+    font-size: 18px;
+    color: maroon;
+    opacity: 50%;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.about-div {
+    width: 1000px;
+}
+
+.about-header {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    opacity: 65%;
+    color: maroon;
+}
+
+.about-text {
+    position: relative;
+    top: -150px;
+    left: 100px;
+}
+
+.about-pfp {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+    border-radius: 50%;
+    opacity: 80%;
+}
+
+.right-arrow {
+    position: absolute;
+    width: 13%;
+    height: 25%;
+    top: 100px;
+    right: 100px;
+    opacity: 50%;
+}
+
+.left-arrow {
+    position: absolute;
+    width: 13%;
+    height: 25%;
+    top: 100px;
+    right: 475px;
+    opacity: 75%;
+}

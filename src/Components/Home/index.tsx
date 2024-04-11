@@ -43,7 +43,16 @@ const Home = () => {
                 </div>
             </motion.div>
             <Link to="/contact" className='flat-button' role='button'>CONTACT ME</Link>
-            <Skills></Skills>
+            <motion.div className='home-skill-div'
+             initial={{ opacity: 0, scale: 1 }}
+             animate={{ opacity: 1, scale: 1 }}
+             transition={{ duration: 1.5 }}>
+                <h2 className='home-skill-div-text'>My Skills</h2>
+                <Skills src='src/assets/ReactIcon.png'></Skills>
+                <Skills src='src/assets/js.png'></Skills>
+                <Skills src='src/assets/htmlcss.png'></Skills>
+                <Skills src='src/assets/c++.png'></Skills>
+            </motion.div>
 
         </div>
     );

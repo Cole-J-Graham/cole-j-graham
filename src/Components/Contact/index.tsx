@@ -1,7 +1,7 @@
 import './index.scss';
 import ContactPane from './contactpane.tsx';
 import FadeInText from '../Animations/FadeInText.tsx';
-import { motion} from "framer-motion";
+import {motion} from "framer-motion";
 
 const Contact = () => {
     return (
