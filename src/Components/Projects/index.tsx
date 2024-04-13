@@ -8,8 +8,24 @@ const Projects = () => {
         initial={{ opacity: 0, scale: 1 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.5 }}>
-            <ProjectPane text='Decaying' href='https://github.com/Cole-J-Graham/Decaying' src='src/assets/test.jpg' width="300px" height="200px"></ProjectPane>
-            <ProjectPane text='Decay' href='https://github.com/Cole-J-Graham/Decay' src='src/assets/test.jpg' width="300px" height="200px"></ProjectPane>
+                <ProjectPane 
+                text='Decaying' 
+                textdesc='C++' 
+                href='https://github.com/Cole-J-Graham/Decaying' 
+                src='/assets/test.jpg' 
+                width="300px" 
+                height="200px" 
+                link='https://www.youtube.com/channel/UC-CK0EYqD-vZytVehYRZOxQ'>
+            </ProjectPane>
+            <ProjectPane 
+                text='Decay' 
+                textdesc='C++' 
+                href='https://github.com/Cole-J-Graham/Decay' 
+                src='/assets/test.jpg' 
+                width="300px" 
+                height="200px" 
+                link='https://www.youtube.com/channel/UC-CK0EYqD-vZytVehYRZOxQ'>
+            </ProjectPane>
         </motion.div>
     )
 }

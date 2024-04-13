@@ -17,9 +17,14 @@ const ProjectPane = (props:any) => {
                     <FadeInText 
                     text={props.text}
                     el='h2'
-                    className='.project-description'/>
+                    className='project-title'/>
+                     <FadeInText 
+                    text={props.textdesc}
+                    el='h3'
+                    className='project-description'/>
             </div>
             <button className='btn'><a className='btn-link' href={props.href}>Github</a></button>
+            <a href={props.link}><img className='project-showcase' src='/assets/youtube-logo-white.png'></img></a>
         </div>
         
     )

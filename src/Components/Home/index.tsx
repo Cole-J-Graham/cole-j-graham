@@ -60,28 +60,28 @@ const Home = () => {
             <h2 className='home-skill-div-text'>My Skills</h2>
             <ToggleText
                 className='home-skill-div'
-                toggleElement={<Skills src='src/assets/ReactIcon.png'>Show/Hide 1</Skills>}
+                toggleElement={<Skills src='/assets/ReactIcon.png'>Show/Hide 1</Skills>}
                 text={<FadeInText text="This website was created using React, Javascript" el='h2' className='skill-text'/>}
                 isActive={activeIndex === 0}
                 onClick={() => handleToggle(0)}
             />
             <ToggleText
                 className='home-skill-div'
-                toggleElement={<Skills src='src/assets/js.png'>Show/Hide 2</Skills>}
+                toggleElement={<Skills src='/assets/js.png'>Show/Hide 2</Skills>}
                 text={<FadeInText text="I use js" el='h2' className='skill-text'/>}
                 isActive={activeIndex === 1}
                 onClick={() => handleToggle(1)}
             />
             <ToggleText
                 className='home-skill-div'
-                toggleElement={<Skills src='src/assets/c++.png'>Show/Hide 3</Skills>}
+                toggleElement={<Skills src='/assets/c++.png'>Show/Hide 3</Skills>}
                 text={<FadeInText text="I use c++" el='h2' className='skill-text'/>}
                 isActive={activeIndex === 2}
                 onClick={() => handleToggle(2)}
             />
             <ToggleText
                 className='home-skill-div'
-                toggleElement={<Skills src='src/assets/htmlcss.png'>Show/Hide 4</Skills>}
+                toggleElement={<Skills src='/assets/htmlcss.png'>Show/Hide 4</Skills>}
                 text={<FadeInText text="I use Html and CSS" el='h2' className='skill-text'/>}
                 isActive={activeIndex === 3}
                 onClick={() => handleToggle(3)}

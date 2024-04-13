@@ -29,7 +29,7 @@
 }
 
 .project-box:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     border-radius: 0em;
   }
 
@@ -40,8 +40,16 @@
     height: 200px;
 }
 
+.project-title {
+    top: 185px;
+    position: absolute;
+}
+
 .project-description {
-    font-size: 18px;
+    opacity: 50%;
+    font-size: 16px;
+    position: relative;
+    bottom: -20px;    
 }
 
 .btn-link {
@@ -55,4 +63,24 @@
     width: 86%;
     display: block;
     padding: 10px;
+}
+
+.project-showcase {
+    opacity: 60%;
+    top: 335px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+}
+
+.project-showcase:hover {
+    opacity: 90%;
+}
+
+.technologies-used-text {
+    font-family:'Courier New', Courier, monospace;
+    opacity: 80%;
+    position: absolute;
+    right: 130px;
+    bottom: 100px;
 }
