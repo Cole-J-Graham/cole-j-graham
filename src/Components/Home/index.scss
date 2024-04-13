@@ -66,15 +66,28 @@
     left: 20px;
 }
 
+.main-home-skill-div {
+  display: flex;
+}
+
 .home-skill-div {
-  position: absolute;
+  display: inline-block;
   top: 100px;
-  right: 400px;
+  right: -100px;
 }
 
 .home-skill-div-text {
   position: absolute;
-  bottom: 100px;
-  left: 110px;
+  display: inline-block;
+  top: 50px;
+  left: 1160px;
 }
 
+.skill-text {
+  float: left;
+  position: absolute;
+  right: 150px;
+  top: 320px;
+  flex: 1;
+  width: 30%;
+}
