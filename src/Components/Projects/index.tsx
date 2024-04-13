@@ -12,7 +12,7 @@ const Projects = () => {
                 text='Decaying' 
                 textdesc='C++' 
                 href='https://github.com/Cole-J-Graham/Decaying' 
-                src='/assets/test.jpg' 
+                src='/test.jpg' 
                 width="300px" 
                 height="200px" 
                 link='https://www.youtube.com/channel/UC-CK0EYqD-vZytVehYRZOxQ'>
@@ -21,7 +21,7 @@ const Projects = () => {
                 text='Decay' 
                 textdesc='C++' 
                 href='https://github.com/Cole-J-Graham/Decay' 
-                src='/assets/test.jpg' 
+                src='/test.jpg' 
                 width="300px" 
                 height="200px" 
                 link='https://www.youtube.com/channel/UC-CK0EYqD-vZytVehYRZOxQ'>

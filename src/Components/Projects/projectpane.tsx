@@ -24,7 +24,7 @@ const ProjectPane = (props:any) => {
                     className='project-description'/>
             </div>
             <button className='btn'><a className='btn-link' href={props.href}>Github</a></button>
-            <a href={props.link}><img className='project-showcase' src='/assets/youtube-logo-white.png'></img></a>
+            <a href={props.link}><img className='project-showcase' src='/youtube-logo-white.png'></img></a>
         </div>
         
     )
