@@ -5,7 +5,7 @@ import './index.scss';
 import AnimatedText from '../Animations/AnimatedText.tsx';
 import FadeInText from '../Animations/FadeInText.tsx';
 import Skills from '../Skills/Skills.tsx';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Home = () => {
 
