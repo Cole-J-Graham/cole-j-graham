@@ -8,9 +8,9 @@ const Projects = () => {
         initial={{ opacity: 0, scale: 1 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.5 }}>
-                <ProjectPane 
+            <ProjectPane 
                 text='Decaying' 
-                textdesc='C++' 
+                textdesc='' 
                 href='https://github.com/Cole-J-Graham/Decaying' 
                 src='/test.jpg' 
                 width="300px" 
@@ -19,7 +19,16 @@ const Projects = () => {
             </ProjectPane>
             <ProjectPane 
                 text='Decay' 
-                textdesc='C++' 
+                textdesc='' 
+                href='https://github.com/Cole-J-Graham/Decay' 
+                src='/test.jpg' 
+                width="300px" 
+                height="200px" 
+                link='https://www.youtube.com/channel/UC-CK0EYqD-vZytVehYRZOxQ'>
+            </ProjectPane>
+            <ProjectPane 
+                text='Decay' 
+                textdesc='' 
                 href='https://github.com/Cole-J-Graham/Decay' 
                 src='/test.jpg' 
                 width="300px" 

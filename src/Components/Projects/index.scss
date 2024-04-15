@@ -3,4 +3,12 @@
     top: 80px;
     left: 100px;
     display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 700px) {
+    .project-docker {
+        top: 20px;
+        left: 65px;
+    }
 }

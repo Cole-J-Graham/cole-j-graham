@@ -6,12 +6,12 @@
 
 .flat-button  {
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #0000001a;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: .25rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   box-sizing: border-box;
-  color: rgba(0, 0, 0, 0.85);
+  color: white;
   cursor: pointer;
   display: inline-flex;
   font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -37,7 +37,7 @@
 .flat-button  {
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
-  color: rgba(0, 0, 0, 0.65);
+  color: white;
 }
 
 .flat-button:hover {
@@ -45,7 +45,7 @@
 }
 
 .flat-button:active {
-  background-color: #F0F0F1;
+  background-color: #ffffff1a;
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
   color: rgba(0, 0, 0, 0.65);
@@ -53,6 +53,7 @@
 }
 
 .flat-button:hover {
+    background-color: #000000;
     opacity: 1;
 }
 
@@ -86,7 +87,7 @@
 .skill-text {
   float: left;
   position: absolute;
-  right: 150px;
+  right: 180px;
   top: 320px;
   flex: 1;
   width: 30%;

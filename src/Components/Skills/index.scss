@@ -1,6 +1,6 @@
 .skill-div  {
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #0000001a;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: .25rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
@@ -37,11 +37,12 @@
 }
 
 .skill-div:hover {
+  background-color: #000000;
   transform: translateY(-5px);
 }
 
 .skill-div:active {
-  background-color: #F0F0F1;
+  background-color: #ffffff1a;
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
   color: rgba(0, 0, 0, 0.65);

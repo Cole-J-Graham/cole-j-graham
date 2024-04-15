@@ -1,24 +1,58 @@
-.btn {
-    font-size: 1.0rem;
-    font-weight: 700;
-    padding: 0.5em, 1em;
+.btn  {
+    align-items: center;
+    background-color: #ffffff10;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
     color: white;
-    background-color: black;
-    border: 5px solid rgb(43, 42, 42);
-    border-radius: 2px;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
     position: relative;
-    bottom: 60px;
-    left: 135px;
-    width: 150px;
-    height: 10px;
-    padding-bottom: 30px;
-    outline: none;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    top: -60px;
+    width: 100px;
+    right: -190px;
+}
+
+.btn,
+.btn  {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: white;
 }
 
 .btn:hover {
-    background-color: rgb(43, 42, 42);
-    outline: none;
+    transform: translateY(-1px);
 }
+
+.btn:active {
+    background-color: #ffffff1a;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+}
+
+.btn:hover {
+    background-color: #ffffff2a;
+    opacity: 1;
+}
+
+
 
 .project-box {
     display: flex;
@@ -40,8 +74,8 @@
 }
 
 .project-title {
-    top: 185px;
-    position: absolute;
+    top: -20px;
+    position: relative;
 }
 
 .project-description {
@@ -66,8 +100,8 @@
 
 .project-showcase {
     opacity: 60%;
-    top: 335px;
-    position: absolute;
+    top: -120px;
+    position: relative;
     width: 70px;
     height: 70px;
 }
@@ -76,10 +110,26 @@
     opacity: 90%;
 }
 
-.technologies-used-text {
-    font-family:'Courier New', Courier, monospace;
-    opacity: 80%;
-    position: absolute;
-    right: 130px;
-    bottom: 100px;
+//Phone Support
+@media only screen and (max-width: 700px) {
+    .btn {
+        left: 75px;
+        width: 70px;
+    }
+    
+    .project-pane {
+        width: 150px;
+        height: 100px;
+    }
+    
+    .project-showcase {
+        top: -85px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .project-image {
+        width: 150px;
+        height: 100px;
+    }
 }

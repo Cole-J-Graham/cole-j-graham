@@ -45,7 +45,7 @@
         }
 
         &:hover {
-            color: maroon;
+            color: skyblue;
     
             svg {
                 opacity: 0;
@@ -96,13 +96,13 @@
 
     a.active {
         svg {
-            color: maroon;
+            color: skyblue;
         }
     }
 
     ul {
         position: relative;
-        top: 400px;
+        top: 200px;
         width: 100%;
         display: block;
         padding: 0;
@@ -118,7 +118,7 @@
                 line-height: 16px;
 
                 &:hover svg {
-                    color:maroon;
+                    color:skyblue;
                 }
             }
         }

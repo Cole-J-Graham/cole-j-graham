@@ -3,7 +3,7 @@
     top: -280px;
     left: 75px;
     font-size: 18px;
-    color: maroon;
+    color: skyblue;
     opacity: 50%;
     font-family:'Courier New', Courier, monospace;
 }
@@ -13,7 +13,7 @@
     bottom: 100px;
     left: 75px;
     font-size: 18px;
-    color: maroon;
+    color: skyblue;
     opacity: 50%;
     font-family:'Courier New', Courier, monospace;
 }
@@ -27,7 +27,7 @@
     top: 100px;
     left: 100px;
     opacity: 65%;
-    color: maroon;
+    color: skyblue;
 }
 
 .about-text {
@@ -64,38 +64,49 @@
 
 //Phone Support
 @media only screen and (max-width: 700px) {
+    .about-div {
+        width: 400px;
+    }
+
     .about-header {
         top: 0px;
     }
 
     .about-text {
+        left: 80px;
         top: -100px;
-        max-width: 450px;
+        max-width: 350px;
         opacity: 80%;
+        font-size: 22px;
+    }
+
+    .about-top-tags {
+        top: -85px;
+        left: 75px;
     }
 
     .about-bottom-tags {
-        bottom: -75px;
+        bottom: -30px;
         left: 75px;
     }
 
     .about-pfp {
-        width: 180px;
-        top: -120px;
-        left: 200px;
+        width: 150px;
+        top: -90px;
+        left: 150px;
     }
     
     .right-arrow {
-        width: 150px;
-        height: 150px;
-        top: -135px;
-        left: 190px;
+        width: 125px;
+        height: 125px;
+        top: -105px;
+        left: 130px;
     }
     
     .left-arrow {
-        width: 150px;
-        height: 150px;
-        top: -135px;
-        left: -275px;
+        width: 125px;
+        height: 125px;
+        top: -105px;
+        left: -225px;
     }
 }
