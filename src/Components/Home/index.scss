@@ -91,3 +91,47 @@
   flex: 1;
   width: 30%;
 }
+
+//Phone Support
+@media only screen and (max-width: 700px) {
+  .flat-button  {
+    top: 350px;
+    right: -100px;
+  }
+
+  .bottom-tags {
+    top: 750px;
+    left: 20px;
+  }
+
+  .main-text {
+    font-size: 38px;
+  }
+
+  .main-text-desc {
+    font-size: 22px;
+  }
+
+  .skill-text {
+    right: -1150px;
+    top: -200px;
+    font-size: 18px;
+    opacity: 80%;
+    min-width: 100px;
+  }
+
+  .home-skill-div {
+    position: relative;
+    display: inline-block;
+    top: 300px;
+    left: -1050px;
+  }
+  
+  .home-skill-div-text {
+    position: absolute;
+    display: inline-block;
+    top: 375px;
+    left: 105px;
+  }
+
+}

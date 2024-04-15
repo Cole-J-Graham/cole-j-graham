@@ -26,7 +26,7 @@ const Home = () => {
                 <FadeInText text="Hi," el='h1' className='main-text'/>
                 <br />
                 <FadeInText text="I'm Cole" el='h1' className='main-text'/>
-                <FadeInText text="Professional Developer / Object Oriented C++ Specialist" el='h2' className='main-text'/>
+                <FadeInText text="Professional Developer / Object Oriented C++ Specialist" el='h2' className='main-text-desc'/>
                 <div className="movingtext-flow">
                     <AnimatedText 
                         text="std::stack overflow //Fix errors with memory management std::vector&lt;int&gt; items;" 
@@ -61,28 +61,28 @@ const Home = () => {
             <ToggleText
                 className='home-skill-div'
                 toggleElement={<Skills src='/ReactIcon.png'>Show/Hide 1</Skills>}
-                text={<FadeInText text="This website was created using React, Javascript" el='h2' className='skill-text'/>}
+                text={<FadeInText text="This website was created using React and Javascript." el='h2' className='skill-text'/>}
                 isActive={activeIndex === 0}
                 onClick={() => handleToggle(0)}
             />
             <ToggleText
                 className='home-skill-div'
                 toggleElement={<Skills src='/js.png'>Show/Hide 2</Skills>}
-                text={<FadeInText text="I use js" el='h2' className='skill-text'/>}
+                text={<FadeInText text="I have been using javascript for one year." el='h2' className='skill-text'/>}
                 isActive={activeIndex === 1}
                 onClick={() => handleToggle(1)}
             />
             <ToggleText
                 className='home-skill-div'
                 toggleElement={<Skills src='/c++.png'>Show/Hide 3</Skills>}
-                text={<FadeInText text="I use c++" el='h2' className='skill-text'/>}
+                text={<FadeInText text="C++ being my primary language, I have used it for two+ years." el='h2' className='skill-text'/>}
                 isActive={activeIndex === 2}
                 onClick={() => handleToggle(2)}
             />
             <ToggleText
                 className='home-skill-div'
                 toggleElement={<Skills src='/htmlcss.png'>Show/Hide 4</Skills>}
-                text={<FadeInText text="I use Html and CSS" el='h2' className='skill-text'/>}
+                text={<FadeInText text="HTML and CSS were both used extensivley in the creation of this site." el='h2' className='skill-text'/>}
                 isActive={activeIndex === 3}
                 onClick={() => handleToggle(3)}
             />
