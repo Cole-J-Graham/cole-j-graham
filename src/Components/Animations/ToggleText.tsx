@@ -1,4 +1,5 @@
 import React from 'react';
+import './ToggleText.scss'; // Import CSS file for styling
 
 interface ToggleTextProps {
   toggleElement: React.ReactNode;
@@ -9,9 +10,11 @@ interface ToggleTextProps {
 }
 
 const ToggleText: React.FC<ToggleTextProps> = ({ toggleElement, text, className, isActive, onClick }) => {
+  const parentClassName = isActive ? 'active' : 'inactive'; // Determine the class name for the parent element
+
   return (
     <div className={className}>
-      <div onClick={onClick}>{toggleElement}</div>
+      <div className={parentClassName} onClick={onClick}>{toggleElement}</div>
       {isActive && <div>{text}</div>}
     </div>
   );
