@@ -10,14 +10,14 @@ const About = () => {
         transition={{ duration: 1.5 }}>
              <FadeInText text="#include<iostream>" el='h3' className='about-top-tags'/>
              <br />
-             <FadeInText text="int main() {" el='h3' className='about-top-tags'/>
+             <FadeInText text="int main() {" el='h3' className='about-top-tags-end'/>
                 <img className='about-pfp' src='/pfp.jpg'></img>
                 <img className='right-arrow' src='/arrow.png'></img>
                 <img className='left-arrow' src='/arrowleft.png'></img>
                 <h1 className='about-header'>About me</h1>
                 <h2 className='about-text'>Over the course of the two years I have been created projects and working towards my degree. I have learned the importance of making reusable and modular code for an all around better development process.</h2>
             <FadeInText text="return 0;" el='h3' className='about-bottom-tags'/>
-            <FadeInText text="}" el='h3' className='about-bottom-tags'/>
+            <FadeInText text="}" el='h3' className='about-bottom-tags-end'/>
         </motion.div>
     )
 }

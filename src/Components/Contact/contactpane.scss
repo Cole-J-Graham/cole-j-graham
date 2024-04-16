@@ -36,17 +36,22 @@
 }
 
 @media only screen and (max-width: 700px) {
+    .circle-text-main {
+        font-size: 18px;
+        bottom: -10px;
+    }
+
     .circle {
-        height: 125px;
-        width: 125px;
+        height: 100px;
+        width: 100px;
         margin: 30px;
     }
 
     .circle-image {
-        margin-left: 30px;
+        margin-left: 18px;
         height: 60px;
         top: 50%;
-        margin-top: 35px;
+        margin-top: 20px;
         width: 65px;
     }
 

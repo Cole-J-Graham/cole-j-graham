@@ -1,7 +1,7 @@
 .text-zone {
-    position: absolute;
-    left: 100px;
-    top: 50px;
+  position: absolute;
+  left: 100px;
+  top: 50px;
 }
 
 .flat-button  {
@@ -19,7 +19,7 @@
   font-weight: 600;
   justify-content: center;
   line-height: 1.25;
-  margin: 0;
+  margin: 0px;
   min-height: 3rem;
   padding: calc(.875rem - 1px) calc(1.5rem - 1px);
   position: relative;
@@ -53,28 +53,29 @@
 }
 
 .flat-button:hover {
-    background-color: #000000;
-    opacity: 1;
+  background-color: #000000;
+  opacity: 1;
 }
 
 .top-tags {
-    top: 0px;
-    left: 0px;
+  top: 0px;
+  left: 0px;
 }
 
 .bottom-tags {
-    top: 500px;
-    left: 20px;
+  top: 500px;
+  left: 20px;
 }
 
 .main-home-skill-div {
-  display: flex;
+display: flex;
 }
 
 .home-skill-div {
   display: inline-block;
   top: 100px;
   right: -100px;
+  margin-right: 10px; 
 }
 
 .home-skill-div-text {
@@ -96,43 +97,52 @@
 //Phone Support
 @media only screen and (max-width: 700px) {
   .flat-button  {
-    top: 350px;
+    top: 320px;
     right: -100px;
   }
 
+  .top-tags {
+    top: -25px;
+    left: -30px;
+  }
+
   .bottom-tags {
-    top: 690px;
-    left: 20px;
+    top: 650px;
+    left: -15px;
   }
 
   .main-text {
-    font-size: 38px;
+    position: relative;
+    left: -25px;
+    font-size: 24px;
   }
 
   .main-text-desc {
-    font-size: 22px;
+    font-size: 16px;
+    position: relative;
+    left: -25px;
   }
 
   .skill-text {
-    right: -1205px;
-    top: -200px;
+    right: -1275px;
+    top: -140px;
     font-size: 18px;
     opacity: 80%;
-    min-width: 100px;
+    min-width: 200px;
   }
 
   .home-skill-div {
     position: relative;
     display: inline-block;
-    top: 300px;
+    top: 200px;
     left: -1175px;
-    max-width: 50px;
+    margin-right: 0px; 
   }
-  
+
   .home-skill-div-text {
     position: relative;
     display: inline-block;
-    top: -50px;
+    top: -150px;
     left: 80px;
     opacity: 25%;
   }
