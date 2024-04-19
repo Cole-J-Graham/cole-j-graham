@@ -12,7 +12,7 @@ const Contact = () => {
         className='contact-div'>
             <h1 className='header-text'>Contact Me</h1>
             <FadeInText text="I look forward to working together" el='h2' className='header-comment'/>
-            <ContactPane text='Email' src='/gmail-logo.png'></ContactPane>
+            <ContactPane text='colegraham117@gmail.com' src='/gmail-logo.png' right='0px' color='blue' fontSize='2px'></ContactPane>
             <ContactPane text='LinkedIn' src='/linkedin-logo.png' href='https://www.linkedin.com/in/cole-graham-0b2747278/'></ContactPane>
             <ContactPane text='Github' src='/git-logo.png' href='https://github.com/Cole-J-Graham?tab=repositories'></ContactPane>
             <ContactPane text='YouTube' src='/youtube-logo.png' href='https://www.youtube.com/channel/UC-CK0EYqD-vZytVehYRZOxQ'></ContactPane>

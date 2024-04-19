@@ -12,19 +12,10 @@ const Projects = () => {
                 text='Decaying' 
                 textdesc='' 
                 href='https://github.com/Cole-J-Graham/Decaying' 
-                src='/test.jpg' 
+                src='/decaying-banner.png' 
                 width="300px" 
                 height="200px" 
-                link='https://www.youtube.com/channel/UC-CK0EYqD-vZytVehYRZOxQ'>
-            </ProjectPane>
-            <ProjectPane 
-                text='Decay' 
-                textdesc='' 
-                href='https://github.com/Cole-J-Graham/Decay' 
-                src='/test.jpg' 
-                width="300px" 
-                height="200px" 
-                link='https://www.youtube.com/channel/UC-CK0EYqD-vZytVehYRZOxQ'>
+                link='https://youtu.be/fmRr7cxLbCg'>
             </ProjectPane>
             <ProjectPane 
                 text='Decay' 

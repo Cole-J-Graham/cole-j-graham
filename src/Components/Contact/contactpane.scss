@@ -13,6 +13,7 @@
 .circle:hover {
     opacity: 75%;
     transform: translateY(-10px);
+    cursor: pointer;
 }
 
 .circle-text-main {
@@ -20,6 +21,7 @@
     font-size: 18px;
     bottom: -30px;
     position: relative;
+    word-wrap: break-word;
 }
 
 .circle-text-main:hover {
@@ -37,8 +39,9 @@
 
 @media only screen and (max-width: 700px) {
     .circle-text-main {
-        font-size: 18px;
+        font-size: 12px;
         bottom: -10px;
+        word-wrap: break-word;
     }
 
     .circle {
