@@ -60,31 +60,52 @@ const Home = () => {
             <h2 className='home-skill-div-text'>My Skills</h2>
             <ToggleText
                 className='home-skill-div'
-                toggleElement={<Skills src='/ReactIcon.png'>Show/Hide 1</Skills>}
-                text={<FadeInText text="This website was created using React and Javascript." el='h2' className='skill-text'/>}
+                toggleElement={<Skills src='/c++.png'>Show/Hide 1</Skills>}
+                text={<FadeInText text="C++ being my primary language, I have used it for over two years learning is extensivley." el='h2' className='skill-text'/>}
                 isActive={activeIndex === 0}
                 onClick={() => handleToggle(0)}
             />
             <ToggleText
                 className='home-skill-div'
                 toggleElement={<Skills src='/js.png'>Show/Hide 2</Skills>}
-                text={<FadeInText text="I have been using javascript for one year." el='h2' className='skill-text'/>}
+                text={<FadeInText text="I have used Javascript consistently for website projects such as this current website." el='h2' className='skill-text'/>}
                 isActive={activeIndex === 1}
                 onClick={() => handleToggle(1)}
             />
             <ToggleText
                 className='home-skill-div'
-                toggleElement={<Skills src='/c++.png'>Show/Hide 3</Skills>}
-                text={<FadeInText text="C++ being my primary language, I have used it for two+ years." el='h2' className='skill-text'/>}
+                toggleElement={<Skills src='/python-icon.png'>Show/Hide 3</Skills>}
+                text={<FadeInText text="Python being the newest language I've taken under my belt, I have been finding great joy in learning its technologies and packages capabilites." el='h2' className='skill-text'/>}
                 isActive={activeIndex === 2}
                 onClick={() => handleToggle(2)}
             />
             <ToggleText
                 className='home-skill-div'
                 toggleElement={<Skills src='/htmlcss.png'>Show/Hide 4</Skills>}
-                text={<FadeInText text="HTML and CSS were both used extensivley in the creation of this site." el='h2' className='skill-text'/>}
+                text={<FadeInText text="I have used HTML and CSS extensively during my web development." el='h2' className='skill-text'/>}
                 isActive={activeIndex === 3}
                 onClick={() => handleToggle(3)}
+            />
+            <ToggleText
+                className='home-skill-div'
+                toggleElement={<Skills src='/ReactIcon.png'>Show/Hide 5</Skills>}
+                text={<FadeInText text="This website was created using React as the main technology to ensure code reusability and scalability." el='h2' className='skill-text'/>}
+                isActive={activeIndex === 4}
+                onClick={() => handleToggle(4)}
+            />
+            <ToggleText
+                className='home-skill-div'
+                toggleElement={<Skills src='/sql-icon.png'>Show/Hide 6</Skills>}
+                text={<FadeInText text="I acquired the SQL basics while learning MySQL." el='h2' className='skill-text'/>}
+                isActive={activeIndex === 5}
+                onClick={() => handleToggle(5)}
+            />
+            <ToggleText
+                className='home-skill-div'
+                toggleElement={<Skills src='/my-sql.png'>Show/Hide 7</Skills>}
+                text={<FadeInText text="MySQL has been a technology I have been studying and learning consistently." el='h2' className='skill-text'/>}
+                isActive={activeIndex === 6}
+                onClick={() => handleToggle(6)}
             />
             </motion.div>
         </div>

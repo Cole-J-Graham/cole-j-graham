@@ -10,7 +10,7 @@ const Projects = () => {
         transition={{ duration: 1.5 }}>
             <ProjectPane 
                 text='Decaying' 
-                textdesc='' 
+                textdesc='C++ SFML' 
                 href='https://github.com/Cole-J-Graham/Decaying' 
                 src='/decaying-banner.png' 
                 width="300px" 
@@ -19,9 +19,9 @@ const Projects = () => {
             </ProjectPane>
             <ProjectPane 
                 text='Decay' 
-                textdesc='' 
+                textdesc='C++ SFML' 
                 href='https://github.com/Cole-J-Graham/Decay' 
-                src='/test.jpg' 
+                src='/decay-banner.png' 
                 width="300px" 
                 height="200px" 
                 link='https://www.youtube.com/channel/UC-CK0EYqD-vZytVehYRZOxQ'>

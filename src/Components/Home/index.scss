@@ -31,6 +31,7 @@
   vertical-align: baseline;
   width: auto;
   right: -100px;
+  top: 40px;
 }
 
 .flat-button,
@@ -68,20 +69,21 @@
 }
 
 .main-home-skill-div {
-display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
 }
 
 .home-skill-div {
-  display: inline-block;
-  top: 100px;
-  right: -100px;
+  display: flex;
   margin-right: 10px; 
+  flex-wrap: wrap;
 }
 
 .home-skill-div-text {
   position: absolute;
   display: inline-block;
-  top: 50px;
+  top: 25px;
   left: 1160px;
 }
 
@@ -97,8 +99,8 @@ display: flex;
 //Phone Support
 @media only screen and (max-width: 700px) {
   .flat-button  {
-    top: 320px;
-    right: -100px;
+    top: 400px;
+    right: -75px;
   }
 
   .top-tags {
@@ -123,6 +125,12 @@ display: flex;
     left: -25px;
   }
 
+  .main-home-skill-div {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+  }
+
   .skill-text {
     right: -1275px;
     top: -140px;
@@ -134,7 +142,7 @@ display: flex;
   .home-skill-div {
     position: relative;
     display: inline-block;
-    top: 240px;
+    top: 260px;
     left: -1080px;
     margin-right: 0px; 
   }
