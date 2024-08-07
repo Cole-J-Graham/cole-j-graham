@@ -29,21 +29,14 @@ const Home = () => {
                 <FadeInText text="Professional Developer / Object Oriented C++ Specialist" el='h2' className='main-text-desc'/>
                 <div className="movingtext-flow">
                     <AnimatedText 
-                        text="std::stack overflow //Fix errors with memory management std::vector&lt;int&gt; items;" 
-                        top="760px"
-                        delay="0"
+                        filePath="assets/text.txt"
                     />
                     <AnimatedText 
-                        text="object = new object(); delete this->object;" 
-                        top="740px"
-                        delay="1"
+                        filePath="assets/text.txt"
                     />
-                    <AnimatedText
-                        text="object = new object(); delete this->object;" 
-                        top="710px"
-                        delay="2"
+                    <AnimatedText 
+                        filePath="assets/text.txt"
                     />
-                    
                     <span className='tags bottom-tags'>
                     &lt;/body&gt;
                     <br />

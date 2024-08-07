@@ -1,0 +1,8 @@
+
+CharacterManager::getInstance().updateStats(this->getMousePosView());
+
+this->userInput = std::make_unique<UserInputComponent>();
+
+this->border = std::make_unique<Rectangle>(this->x, this->y, 200, 200, 
+
+sf::Color::Transparent, sf::Color::White, 1.f, false);
